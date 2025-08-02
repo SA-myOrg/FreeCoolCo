@@ -1,0 +1,6 @@
+services:
+  site1:
+    build: ./FreeCoolCo
+    container_name: freeCoolCo
+    ports:
+      - "9001:80"
